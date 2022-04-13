@@ -1,5 +1,5 @@
 let num = 20 // Это глобальная переменная
-function showFilmsMassage (text) {
+function showFilmsMassage(text) {
     console.log(text)
     let num = 10 // Это локальная переменная
 }
@@ -12,16 +12,16 @@ console.log(num)
 //Если мы создаем переменную внутри функции, то за граниицами функции мы её вызвать не можем! Такая переменная называется "локальной переменной"
 
 
-function calc (a,b) {
-    return (a+b)
+function calc(a, b) {
+    return (a + b)
 }
 
-console.log(calc(5,7))
-console.log(calc(8,7))
-console.log(calc(15,7))
+console.log(calc(5, 7))
+console.log(calc(8, 7))
+console.log(calc(15, 7))
 //Ту по сути работает как калькулятор. МОжно использовать множество раз
 
-function ret () {
+function ret() {
     let num = 50
     return num
 }
@@ -34,4 +34,3 @@ console.log(anotherNum)
 // Классификация функций
 
 // 1. FunctionDeclaration
-

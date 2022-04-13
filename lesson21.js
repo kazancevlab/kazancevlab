@@ -1,4 +1,5 @@
-// let arr = [1,2,3,4,5,6] //Массив
+ let arr = [1,2,3,4,5,6] //Массив
+
 //
 // arr.forEach(function (item,i,arr){
 //     console.log(`${i}:${item} внутри массива ${arr}`)
@@ -15,6 +16,9 @@
 //     console.log(arr[i])
 // }
 //
+
+
+
 
 let tvp = prompt(', ')
 let products = tvp.split(', ') // Позволяет разюить значения на массив данных
